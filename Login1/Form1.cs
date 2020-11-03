@@ -18,7 +18,7 @@ namespace Login1
         {
             InitializeComponent();
         }
-
+// must change SERVER=your ms sql server and DATABASE=name of you database
         SqlConnection con = new SqlConnection("SERVER=DESKTOP-C1CCQ4G;DATABASE=ejemplo;Integrated security=true");
         
 
