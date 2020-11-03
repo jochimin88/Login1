@@ -65,6 +65,7 @@ namespace Login1
             logear(this.txtUsuario.Text, this.txtPassword.Text);
         }
 
+        // Test Conecction MSSQL SERVER
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection conexion = new SqlConnection("SERVER=DESKTOP-C1CCQ4G;DATABASE=ejemplo;Integrated security=true");
